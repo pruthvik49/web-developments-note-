@@ -1,0 +1,21 @@
+body {
+    background-color: wheat;
+
+}
+h1 {
+    color: rgb(24, 79, 126);
+    background-color: black;
+}
+p{
+    font-family: serif;
+}
+
+#paragraph{
+    color: bisque;
+    background-color: black;
+}
+.yoo{
+    color: brown;
+
+
+}
