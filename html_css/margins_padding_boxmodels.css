@@ -1,0 +1,21 @@
+#margin{
+    border: solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+#box{
+    background-color: grey;
+    border: 20px solid green;
+    width: 400px;
+    margin: 20px;
+    padding: 50px;
+    opacity: 40%;
+}
