@@ -1,0 +1,15 @@
+.dotted{
+    border-style: dotted;
+    width: 160px;
+}
+.solid{
+    border-style: solid;
+    border-color: brown;
+}
+.duble{
+    border-style: double;
+    
+}
+.insert{
+    border-style: inset;
+}

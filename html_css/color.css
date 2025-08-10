@@ -1,14 +1,15 @@
 body {
-    background-color: wheat;
+   /* background-color: wheat;*/
+    background-image: url();
 
 }
 h1 {
     color: rgb(24, 79, 126);
     background-color: black;
 }
-p{
+/*p{
     font-family: serif;
-}
+}*/
 
 #paragraph{
     color: bisque;
@@ -16,6 +17,5 @@ p{
 }
 .yoo{
     color: brown;
-
-
 }
+
