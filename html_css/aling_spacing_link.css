@@ -1,0 +1,14 @@
+#as{
+    text-align: center;
+    line-height: 4;
+    letter-spacing: 2;
+}
+a{
+    color: blueviolet;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: rgb(188, 165, 210);
+}
