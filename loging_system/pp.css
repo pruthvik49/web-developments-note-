@@ -1,0 +1,57 @@
+body{
+    background: rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+}
+*{
+
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+form{
+    width: 550px;
+    border: 3px solid #ccc;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+input{
+    display: block;
+    border: 3px solid;
+    width: 90%;
+    padding: 11px;
+    margin: 11px auto;
+}
+lable{
+    color: #555252;
+    font-size: 20px;
+    padding: 11px;
+
+
+}
+button{
+    float: right;
+    background: #9a9797;  
+    color: #222020;
+    padding: 11px 17px;
+      border-radius: 6px;
+      margin-right: 11px;
+}
+button:hover{
+    opacity: 0.9;
+}
+.error{
+    background: #f2d;
+    color:#ccc;
+    padding: 12px;
+    width: 92%;
+    border-radius: 8px;
+}
