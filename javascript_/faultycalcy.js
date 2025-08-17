@@ -13,3 +13,21 @@ This faulty calculator does following:
 It performs wrong operation 10% of the times
 
 */
+let random = Math.random()
+    let a = prompt(" ")
+    let c = prompt(" ")
+    let b = prompt(" ")
+
+let obj = {
+    "+": "-",
+    "*": "+",
+    "-": "/",
+    "/": "**",
+
+}
+if(random > 0.1){
+
+
+}else{
+    c = obj[c]
+}
