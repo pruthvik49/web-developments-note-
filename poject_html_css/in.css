@@ -1,0 +1,24 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+}
+
+.container{
+    margin: 11px;
+    padding: 11px;
+    background-color: grey;
+}
+
+.logom{
+
+   
+}
+.noo{
+    text-align: right;
+
+}
+.navbar{
+    margin: 2px;
+}
