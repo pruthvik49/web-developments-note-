@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chi{
+            background-color: blueviolet;
+            border: 2px solid black;
+            padding: 14px;
+            margin: 14;
+            cursor: pointer;
+        }
+        .child{
+            background-color: beige;
+             padding: 14px;
+            margin: 14;
+        }
+        .coc{
+            background-color: bisque;
+            padding: 14px;
+            margin: 14;
+        }
+    </style>
+</head>
+<body>
+    <div class="coc">
+        <section class="child">
+            <div class="chi">
+                i am child
+            </div>
+        </section>
+    </div>
+    <script>
+    document.querySelector(".chi").addEventListener("click", (e) => {
+            e.stopPropagation()
+            alert("Child Was clicked")
+        })
+
+        document.querySelector(".child").addEventListener("click", (e) => {
+            e.stopPropagation()
+            alert("childContainer Was clicked")
+        })
+
+        document.querySelector(".coc").addEventListener("click", (e) => {
+            alert("container Was clicked")
+        })
+ function getRandomColor() {
+            let val1 = Math.ceil(0 + Math.random() * 255);
+            let val2 = Math.ceil(0 + Math.random() * 255);
+            let val3 = Math.ceil(0 + Math.random() * 255);
+            return `rgb(${val1}, ${val2}, ${val3})`
+        }
+         let a = setInterval(() => {
+            document.querySelector(".coc").style.background = getRandomColor();
+            document.querySelector(".child").style.background = getRandomColor();
+            document.querySelector(".chi").style.background = getRandomColor();
+         }, 1000);
+
+         console.log(a)
+    </script>
+</body>
+</html>
