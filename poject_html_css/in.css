@@ -1,24 +1,27 @@
-*{
-
-    margin: 0;
-    padding: 0;
-    font: 1em sans-serif;
+.lo{
+    width: 70px;
+  
 }
-
-.container{
-    margin: 11px;
-    padding: 11px;
-    background-color: grey;
-}
-
-.logom{
-
-   
-}
-.noo{
-    text-align: right;
+.bar{
+    display: block;
+    gap: 20px;
 
 }
-.navbar{
-    margin: 2px;
+.bar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
 }
+.bar:hover{
+    color: white;
+    background: rgb(159, 157, 157);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
