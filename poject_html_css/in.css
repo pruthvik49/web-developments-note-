@@ -7,6 +7,13 @@
     gap: 20px;
 
 }
+
+
+
+.noo{
+    text-align: right;
+
+
 .bar a{
     text-decoration: none;
     color: black;
@@ -23,5 +30,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+
 }
 
