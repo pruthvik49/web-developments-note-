@@ -1,0 +1,35 @@
+.lo{
+    width: 70px;
+  
+}
+.bar{
+    display: block;
+    gap: 20px;
+
+}
+
+
+
+.noo{
+    text-align: right;
+
+
+.bar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
+}
+.bar:hover{
+    color: white;
+    background: rgb(159, 157, 157);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+
+}
+
