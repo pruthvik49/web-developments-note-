@@ -53,6 +53,7 @@ body {
     width: 75vw;
     margin: 16px 0;
     position: relative;
+   
 }
 
 .home ul li {
@@ -125,7 +126,7 @@ body {
     gap: 10px;
     flex-wrap: wrap;
     overflow: scroll;
-    max-height: 80vh;
+    max-height: 60vh;
 }
 
 .card {
@@ -194,11 +195,12 @@ body {
 .playbar{
     background-color: rgb(34, 34, 34);
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 90%;
     padding: 10px;
     width: 70vw;
-
+    height: 40px;
+    position: absolute;
     
 }
 .songbtn{
@@ -206,11 +208,18 @@ body {
     justify-content: center;
     gap: 16px;
 }
+.songbtn img{
+cursor: pointer;
+}
 
 .songlist{
-    height: 544px;
+    height: 344px;
     overflow: scroll;
     margin: 42px 0;
+}
+.songList .info {
+    font-size: 13px;
+    width: 344px;
 }
 
 .songlist ul{
@@ -248,11 +257,41 @@ body {
     align-items: center;
 }
 .seekbar{
-    height: 2px;
+    height: 4px;
     width: 98%;
     border: 2px solid rgb(164, 164, 164);
     position: absolute;
-    bottom: 0;
+    bottom: 3px;
     border-radius: 10px;
-    background-color: rgb(164, 164, 164)  ;
+    background-color: rgb(164, 164, 164);
+    cursor: pointer;
+}
+.circle{
+      width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: -1%;
+    margin: 6px;
+    cursor: pointer;
+    transition: left 0.5s;
+}
+.songinfo .songtime{
+    color: black;
+}
+.abovebar{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1400px){
+    .left{
+        background: #1fdf64;
+        position: absolute;
+        left: -100%;
+        transition: all .3s;
+        z-index: 1;
+        width: 233px;
+    }
 }
